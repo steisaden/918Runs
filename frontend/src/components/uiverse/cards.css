@@ -1,0 +1,7 @@
+/* Cards grid and hover tilt, themed to brand vars */
+.cards{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:16px}
+.card{background:var(--white); border:1px solid color-mix(in srgb, var(--navy) 12%, transparent); border-radius:12px; padding:16px; transition:transform .2s ease, box-shadow .2s ease; will-change:transform; box-shadow: var(--shadow-soft)}
+.card:hover{transform:rotate3d(1,1,0,1.2deg) translateY(-2px); box-shadow: var(--shadow-strong)}
+.card h3{margin:.25rem 0}
+.badge{display:inline-block; padding:.25rem .5rem; border-radius:999px; background:var(--navy); color:var(--white); font-size:.75rem}
+

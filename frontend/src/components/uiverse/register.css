@@ -1,0 +1,11 @@
+/* Themed UIverse-like styles constrained to brand CSS vars only */
+.form{display:grid; gap:12px}
+.form input, .form select, .form textarea{
+  padding:.75rem; border:1px solid var(--navy); border-radius:10px; background:var(--white); color:var(--text)
+}
+.form input:focus{outline:2px solid var(--red); outline-offset:2px}
+.checkbox{display:flex; gap:.5rem; align-items:flex-start}
+.checkbox input[type="checkbox"]{width:18px;height:18px; accent-color:var(--red)}
+.help{font-size:.875rem; color:var(--muted)}
+.error{color:var(--red); font-size:.85rem}
+

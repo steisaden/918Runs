@@ -7,6 +7,7 @@ Monorepo structure:
 Brand guardrails (non-negotiable):
 - Colors via CSS vars only:
   --red: #C8262D; --navy: #0F1B2D; --cream: #F5F1E8; --white: #FFFFFF
+  Note: Requests for non-brand colors will be refused and mapped to these variables. Hero shader uses a red→navy gradient over a cream background.
 - Typography: Montserrat + Open Sans only.
 - No additional colors are allowed anywhere in the codebase.
 
